@@ -1,0 +1,38 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Car Details</title>
+    <script src="js/app.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <h1>Vintage Cars</h1>
+    <p>A vintage car is, in the most general sense, an old automobile, and in the narrower senses of car enthusiasts and collectors, it is a car from the period of 1919 to 1930. Such enthusiasts have categorization schemes for ages of cars that enforce distinctions between antique cars, vintage cars, classic cars, and so on. The classification criteria vary, but consensus within any country is often maintained by major car clubs, for example the Vintage Sports-Car Club (VSCC) in the UK (src: wikipedia)</p>
+    <div class="form-class">
+      <h2>Input Car Details Below</h2>
+      <form id="input-form">
+        <label for="car_name">Car_Name:</label>
+        <input type="text" id="name-input" value="Enter car's name">
+
+        <label for="car_make">Manufacturer:</label>
+        <input type="text" id="make-input" value="Enter car's make" >
+
+        <label for="car_model">Model:</label>
+        <input type="text" id="make-input" value="Enter car's model" >
+
+        <label for="make_year">Year of Manufacture:</label>
+        <input type="date" id="car-year" value="Select car's year of manufacture" min="1900-01-01" max="1970-12-31">
+
+        <button type="submit" id="submit_car">Submit Car</button>
+      </form>
+    </div>
+
+    <div id="input-display">
+      <h2>Display Cars</h2>
+        <p class="car-display"></p>
+
+    </div>
+
+  </body>
+</html>
