@@ -29,19 +29,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const inputDisplayNewListItem = document.createElement('h2');
   inputDisplayNewListItem.classList.add('input-for-test');
 
-  const carName = document.createElement('h3');
+  const carName = document.createElement('h6');
   carName.textContent = form['car-name'].value;
   inputDisplayNewListItem.appendChild(carName);
 
-  const carMake = document.createElement('h4');
+  const carMake = document.createElement('h6');
   carMake.textContent = form['car-make'].value;
   inputDisplayNewListItem.appendChild(carMake);
 
-  const carModel = document.createElement('h4');
+  const carModel = document.createElement('h6');
   carModel.textContent = form['car-model'].value;
   inputDisplayNewListItem.appendChild(carModel);
 
-  const carYear = document.createElement('h4');
+  const carYear = document.createElement('h6');
   carYear.textContent = event.target['car-year'].value;
   inputDisplayNewListItem.appendChild(carYear);
 
